@@ -1,0 +1,75 @@
+/* Reset & Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #020110;
+    padding: 0 20px;
+  }
+  
+  header {
+    background: #479fe3;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  nav h1 {
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #a91717;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f1d711;
+    border-radius: 8px;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #206794;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 4px solid #333;
+    background-color: #f9f9f9;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #222;
+    color: #fff;
+  }
+  
